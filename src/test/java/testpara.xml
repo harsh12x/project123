@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes"  thread-count="2" name="Suite">
+  <test name="Test">
+  <parameter name="browser"  value="Chrome"/>
+  
+    <classes>
+      <class name="parallelTest.Test1"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test1">
+  <parameter name="browser"  value="fire"/>
+  
+    <classes>
+      <class name="parallelTest.Test2"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
